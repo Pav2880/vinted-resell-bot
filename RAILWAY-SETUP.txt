@@ -1,0 +1,33 @@
+RAILWAY 24/7 SETUP
+
+1. Upload disse filer til dit GitHub repo:
+   - bot.py
+   - requirements.txt
+   - runtime.txt
+   - Procfile
+   - .gitignore
+   - README.md
+
+2. Gå til https://railway.app
+
+3. Klik New Project
+
+4. Vælg Deploy from GitHub repo
+
+5. Vælg dit repo: vinted-resell-bot
+
+6. Gå ind på projektet > Variables
+
+7. Tilføj:
+   DISCORD_TOKEN=dit_hele_bot_token
+
+8. Deploy.
+
+9. Når loggen siger:
+   BOT ONLINE
+
+   så virker den 24/7.
+
+VIGTIGT:
+Læg aldrig .env op på GitHub.
+Token skal kun ind i Railway Variables.
